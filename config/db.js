@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 
 // Establish a connection to the MongoDB database using the MONGO_URL environment variable
-const connection = mongoose.connect(`${process.env.MONGO_URL}`, {
+const connection = mongoose.connect('mongodb+srv://ASJ:OR17J4454@cluster0.a1i0vnk.mongodb.net/Skooy', {
   useNewUrlParser: true, // Use the new URL parser
   useUnifiedTopology: true // Use the new Server Discovery and Monitoring engine
 });
